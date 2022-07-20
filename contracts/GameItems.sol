@@ -4,6 +4,7 @@ pragma solidity ^0.8.7;
 import "@openzeppelin/contracts/token/ERC1155/ERC1155.sol";
 import "@openzeppelin/contracts/utils/Strings.sol";
 
+// 0x065C83d27EA16Fb4dcb08B09Ed07bDF854106545
 contract GameItems is ERC1155 {
     uint256 public constant CHARIZARD = 0;
     uint256 public constant IVYSAUR = 1;
